@@ -1,7 +1,0 @@
-@layer
-  core
-, components
-;
-
-@import url('./core/_index.css') layer(core);
-@import url('./components/_index.css') layer(components);
