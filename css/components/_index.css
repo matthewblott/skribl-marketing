@@ -1,0 +1,32 @@
+a.github-link {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+  background-color: transparent;
+  color: inherit; 
+  border: 1px solid #d1d5db;
+
+  &:hover {
+    background-color: #f3f4f6;
+  }
+}
+
+a.app-link {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease;
+  border-radius: 0.5rem; 
+  background: black;
+  color: white;
+  cursor: pointer;
+  width: 8rem;
+  height: 2.9rem;
+  text-align: center;
+
+  &:hover {
+    background: color-mix(in srgb, var(--color-primary), black 10%);
+  }
+}
